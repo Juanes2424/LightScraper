@@ -1,0 +1,233 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+    height: 3.1rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #327dbe;
+    color: white;
+    font-size: 1.2rem;
+
+    padding: 0px 1rem;
+
+    overflow: hidden;
+}
+
+header .logo span {
+    margin: 0px;
+    font-weight: bolder;
+}
+
+header .logo {
+    flex: 1;
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo > * {
+    margin: 0px 0.8rem;
+}
+
+header img {
+    height: calc(100% - 1.2rem);
+    width: auto;
+}
+
+nav {
+    flex: 1;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav ul {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li.selected {
+    background-color: #316b99;
+}
+
+nav ul li:hover {
+    background-color: #316b99;
+}
+
+nav li {
+    list-style: none;
+
+    margin-right: 0.25rem;
+    padding: 3px 1rem;
+
+    border-radius: 0.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header .control {
+    flex: 1;
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .control > * {
+    margin: 0px 1rem;
+}
+
+header .control .time {
+    text-transform: lowercase;
+}
+
+header .user {
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .user > * {
+    margin: 0px 0.2rem;
+}
+
+header .user img {
+    height: calc(100% - 1.6rem);
+    width: auto;
+    filter: invert(100%);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.indices {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.indices > * {
+    margin: 0px 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.indices .circle {
+    display: inline-block;
+    margin: 0px 0.4rem;
+    border-radius: 0.8rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #000000;
+}
+
+.indices > * {
+    margin: 0px 0.8rem;
+}
+
+.clasesAbiertas {
+    font-size: 22px;
+}
+
+.containers {
+    display: flex;
+    border-bottom: 2px solid #c7c7c7;
+    border-top: 2px solid #c7c7c7;
+}
+
+.seccion1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #c7c7c7;
+    border-right: 2px solid #c7c7c7;
+}
+
+.section2 {
+    width: 50%;
+}
+
+.escalon1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.escalon2 {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cosaImportante {
+    width: 100%;
+    height: calc(100% - 2px);
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #c7c7c7;
+}
